@@ -8,11 +8,11 @@ DB_PASSWORD="topsecret"
 
 if [ -z "$1" ]; then
     echo "Please input backup file:"
-    echo "eg: ./db_restore.sh backups/backup_20231201_120000.sql"
+    echo "eg: ./db_restore.sh db_backups/backup_20231201_120000.sql"
 
     echo ""
     echo "Backup files:"
-    ls -la backups/*.sql 2>/dev/null || echo "No backup files found in 'backups/' directory."
+    ls -la db_backups/*.sql 2>/dev/null || echo "No backup files found in 'backups/' directory."
     exit 1
 fi
 
