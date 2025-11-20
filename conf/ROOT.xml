@@ -2,9 +2,9 @@
 <Context>
     <!-- database configurations -->
     <Parameter name="JDBC.driver"   value="org.postgresql.Driver"/>
-    <Parameter name="JDBC.url"      value="jdbc:postgresql://postgresql:5432/hmdm"/>
-    <Parameter name="JDBC.username" value="hmdm"/>
-    <Parameter name="JDBC.password" value="topsecret"/>
+    <Parameter name="JDBC.url"      value="jdbc:postgresql://postgresql:5432/db_proctor"/>
+    <Parameter name="JDBC.username" value="ProctorAdmin"/>
+    <Parameter name="JDBC.password" value="Proctor@imago101"/>
 
     <!-- This directory is used to as a base directory to store app data -->
     <Parameter name="base.directory" value="/usr/local/tomcat/work"/>
